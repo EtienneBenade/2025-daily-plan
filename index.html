@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <style>
+      html {
+        background-image: linear-gradient(
+          rgb(210, 245, 245),
+          rgb(13, 224, 224)
+        );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(9, 0.25fr);
+        gap: 10px;
+        flex: 1;
+      }
+      .title {
+        grid-column: span 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .image {
+        grid-area: 2/1/2/4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+      }
+      .date {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(124, 245, 176);
+        border: 2px solid black;
+        border-radius: 20px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-weight: bold;
+        height: fit-content;
+        flex: 1;
+      }
+      .footer {
+        grid-area: 11/1/11/4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(124, 245, 176);
+        height: fit-content;
+        padding: 10px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        flex: 1;
+        font-weight: 600;
+      }
+      span {
+        color: brown;
+        font-family: cursive;
+        font-size: larger;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title"><h1 class="title">2025 Daily Plans</h1></div>
+      <div class="image">
+        <img src="./assets/images/calendar.png" alt="calendar" />
+      </div>
+      <div class="date">
+        <a href="./11march-22march.html.html">11 March - 22 March</a>
+      </div>
+      <div class="date">23 March - 10 April</div>
+      <div class="date">11 April - 22 April</div>
+      <div class="date">23 April - 10 May</div>
+      <div class="date">11 May - 22 May</div>
+      <div class="date">23 May - 10 June</div>
+      <div class="date">11 June - 22 June</div>
+      <div class="date">23 June - 10 July</div>
+      <div class="date">11 July - 22 July</div>
+      <div class="date">23 July - 10 August</div>
+      <div class="date">11 August - 22 August</div>
+      <div class="date">23 August - 10 September</div>
+      <div class="date">11 September - 22 September</div>
+      <div class="date">23 September - 10 October</div>
+      <div class="date">11 October - 22 October</div>
+      <div class="date">23 October - 10 November</div>
+      <div class="date">11 November - 22 November</div>
+      <div class="date">23 November - 10 December</div>
+      <div class="date">11 December - 22 December</div>
+      <div class="date">23 December - 10 January</div>
+      <div class="footer">
+        <footer>Designed by <span>Etienne Benadé</span></footer>
+      </div>
+    </div>
+  </body>
+</html>
